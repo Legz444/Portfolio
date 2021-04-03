@@ -5,7 +5,7 @@ const Timeline = () => {
         <>
         <div class="timeline">
             <div class="container left">
-                <div class="date">15 Dec</div>
+                <div class="date">January 2021</div>
                 <i class="icon fa fa-home"></i>
                 <div class="content">
                     <h2>Urspace</h2>
@@ -14,7 +14,7 @@ const Timeline = () => {
                 </div>
             </div>
             <div class="container right">
-                <div class="date">22 Oct</div>
+                <div class="date">February 2021</div>
                 <i class="icon fa fa-gift"></i>
                 <div class="content">
                     <h2>Divine Confections</h2>
@@ -23,11 +23,11 @@ const Timeline = () => {
                 </div>
             </div>
         <div class="container left">
-            <div class="date">10 Jul</div>
+            <div class="date">March 2021</div>
             <i class="icon fa fa-user"></i>
             <div class="content">
                 <h2>Tweeter</h2>
-                <h4>Group project creating Twitter knock off - Ruby, Rails, React</h4>
+                <h4>Group project creating Twitter knock off - Ruby on Rails and React</h4>
                 <a><img src="#"></img></a>
             </div>
         </div>

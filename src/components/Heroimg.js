@@ -4,6 +4,7 @@ const Heroimg = () => {
     <div className="image_container">
         <div className="inner_container">
             <img 
+            className="hero_img"
             src="https://res.cloudinary.com/legz444/image/upload/v1616342134/Unsplash%20Art/patti-black-xcECoLX1ne0-unsplash_wlwupc.jpg"
             width ="100%"
             height = "800px"

@@ -14,6 +14,10 @@ body{
     margin: auto;
     padding: 10px;
 }
+
+.hero_img{
+    background-repeat: no-repeat;
+}
 .title_box{
     font-family: 'Open Sans Condensed', sans-serif;
     position: absolute;
