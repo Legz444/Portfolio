@@ -12,6 +12,10 @@ const Headertxt = () => {
                 <span> reach your DREAMS?</span>
             </div>
         </div>
+        <div className="title_box2">
+            <h1>Allegra Hilburger</h1>
+            <h3>Software Engineer, Web Designer, Entrepeneur</h3>
+        </div>
         </>
     )
 }

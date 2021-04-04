@@ -2,12 +2,14 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
+    
 }
 .nav{
     display: flex;
     width: 50vw;
     margin: auto;
     top: 25px;
+    font-family: 'Amatic SC', cursive;
 }
 .link{
     color: #7caeb3;
@@ -15,28 +17,48 @@ body{
     padding: 10px;
 }
 
-.hero_img{
-    background-repeat: no-repeat;
-}
+
 .title_box{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Amatic SC', cursive;
     position: absolute;
-    top: 35%;
+    top: 60%;
     transform: translateY(-50%);
     font-size: 2em;
     color: rgb(233, 185, 141);
     margin-left: 50px;
     width: calc(100% - 200px);
     text-shadow: 0 2px 2px rgb(1, 1, 1, .5);
+    -moz-animation: cssAnimation 0s ease-in 7s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 7s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 7s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 7s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 .title_words{
     display: inline-block;
+    
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
 }
 
 .title_words span{
-    /* font-size: 2.5em; */
-    
     position: absolute;
     top: 0;
     margin-left: 10px;
@@ -79,4 +101,17 @@ body{
 }
 .title_words span:nth-child(4){
     animation-delay: 6s;
+}
+
+.title_box2{
+    font-family: 'Amatic SC', cursive;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    /* display: none; */
+    color: #7caeb3;
+    margin-left: 50px;
+    width: calc(100% - 200px);
+    text-shadow: 0 2px 2px rgb(1, 1, 1, .5);
 }
