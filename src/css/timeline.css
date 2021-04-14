@@ -10,6 +10,7 @@ body {
 }
 
 .timeline {
+  order: 4;
   position: relative;
   width: 100%;
   max-width: 1140px;
