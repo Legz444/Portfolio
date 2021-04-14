@@ -7,7 +7,7 @@ const About = () => {
         <>
         <Container className="about-page">
             <Card style={{width: '40rem'}} className="about_card mx-auto" bg="dark" variant="dark">
-                <Card.Img variant="left"  src="https://res.cloudinary.com/legz444/image/upload/v1618401131/20200902_083256_mmmokm.jpg" width="200px" height="250px" className="p-3 mx-auto"/>
+                <Card.Img variant="left"  src="https://res.cloudinary.com/legz444/image/upload/v1618404867/memountain_pjixkd.jpg" width="350px" height="300px" className="p-3 mx-auto"/>
                 <Card.Body>
                     <Card.Title className="about-title">Allegra Hilburger</Card.Title>
                     <Card.Subtitle><a href="#">allegraSE@protonmail.com</a></Card.Subtitle>
